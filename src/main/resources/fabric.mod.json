@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "aesirpara",
+  "version": "${version}",
+  "name": "Aesir Para",
+  "description": "Yakindaki oyuncularin parasini /bal komutuyla sorgulayip kafalarinin ustunde gosterir. Gaks_v310 Tarafindan Yapilmistir.",
+  "authors": ["Gaks_v310"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.aesirpara.AesirPara"] },
+  "mixins": ["aesirpara.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
